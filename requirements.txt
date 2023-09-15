@@ -1,0 +1,4 @@
+transformers
+huggingface_hub
+librosa
+jiwer
