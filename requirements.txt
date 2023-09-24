@@ -2,3 +2,6 @@ transformers
 huggingface_hub
 librosa
 jiwer
+datasets
+dataclasses
+accelerate
