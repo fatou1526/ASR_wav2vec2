@@ -2,7 +2,7 @@ from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 import torch
 
 class ASRInference:
-    def __init__(self, model_name = 'patrickvonplaten/wav2vec2-base-100h-with-lm')
+    def __init__(self, model_name = 'patrickvonplaten/wav2vec2-base-100h-with-lm'):
         self.model = Wav2Vec2ForCTC.from_pretrained(model_name)
         self.processor = Wav2Vec2Processor.from_pretrained(model_name)
 

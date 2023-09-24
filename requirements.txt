@@ -1,3 +1,4 @@
+uvicorn
 transformers
 huggingface_hub
 librosa
