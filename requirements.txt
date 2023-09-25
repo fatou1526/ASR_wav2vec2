@@ -6,3 +6,4 @@ jiwer
 datasets
 dataclasses
 accelerate
+fastapi
